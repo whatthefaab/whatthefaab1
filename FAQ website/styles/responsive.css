@@ -1,0 +1,8 @@
+@media screen and (max-width: 700px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,161 @@
+// styling voor het responsive maken van de website
+
+// styling telefoon & tablet
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3%;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%;
+    font-size: 8px;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .logo {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .faq {
+    margin-top: 8%;
+    font-size: 18px ;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .vraag{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_vraag {
+    width: 90.5%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header_zoek{
+    width: 89.7%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .categories {
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cat1  {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cat2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cat3  {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .left, .right  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_zoek, .header_vraag  {
+    justify-content: center;
+
+  }
+}
+
+@media screen and (max-width: 768px){
+  footer {
+    width: 100%;
+  }
+}
+
+//styling tablet
+
+@media screen and (min-width: 701px) and (max-width: 768px) {
+  .logo{
+    width: 15%;
+    margin-left: -3%;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 768px){
+  .header {
+    margin-left: 2%;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1360px){
+  .nav{
+    margin-left: 73%;
+  }
+}
+
+
+
+
+

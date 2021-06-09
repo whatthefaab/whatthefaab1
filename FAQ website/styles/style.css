@@ -1,0 +1,475 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: montserrat, sans-serif;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  color: #262261;
+}
+
+h2 {
+  color: #262261;
+}
+
+h3 {
+  color: #262261;
+}
+
+h4 {
+  color: white;
+}
+
+h5 {
+  color: coral;
+}
+
+h6 {
+  color: crimson;
+}
+
+h4 {
+  margin-left: 0.5%;
+}
+
+p {
+  color: #262261;
+}
+
+.faq {
+  text-align: center;
+}
+
+.vraag {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 20px;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.container2 {
+  justify-content: center;
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+
+.header {
+  position: sticky;
+  display: flex;
+  margin-left: -1%;
+  margin-top: -0.8%;
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+  background-color: white;
+}
+
+.nav {
+  margin-left: 80%;
+  display: flex;
+  width: 60%;
+  padding: 1%;
+  background-color: white;
+  font-weight: bold;
+}
+.nav ul {
+  color: #262261;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+.nav li {
+  display: inline;
+}
+.nav li a {
+  color: #262261;
+  font-size: 14px;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+.nav li a:hover {
+  color: #008cff;
+}
+
+.logo {
+  width: 8%;
+  justify-content: left;
+  display: block;
+}
+
+.links_onderwerpen, .categories {
+  display: flex;
+}
+
+.categories {
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.header_cat {
+  justify-content: center;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  background-color: #262261;
+  color: white;
+}
+
+.cat1 {
+  font-size: false;
+}
+
+.cat2 {
+  font-size: false;
+}
+
+.cat3 {
+  font-size: false;
+}
+
+.cat1 {
+  width: 26%;
+}
+
+.cat2 {
+  width: 27%;
+}
+
+.cat1 {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  height: 100%;
+  margin-left: 5%;
+  background-color: white;
+  border: 2px solid #262261;
+  padding-bottom: 6.4%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cat1 ul {
+  display: block;
+  text-align: left;
+  margin-top: 3.3%;
+  color: #262261;
+  list-style-type: none;
+}
+.cat1 ul li {
+  display: block;
+  text-align: left;
+  margin-left: -5%;
+}
+.cat1 ul li a {
+  color: #262261;
+  text-decoration: none;
+  display: block;
+  margin-top: 7.5%;
+}
+.cat1 ul li a:hover {
+  color: #008cff;
+}
+
+.cat2 {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  height: 100%;
+  background-color: white;
+  border: 2px solid #262261;
+  padding-bottom: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cat2 ul {
+  display: block;
+  text-align: left;
+  margin-top: 1.5%;
+  color: #262261;
+  list-style-type: none;
+}
+.cat2 ul li {
+  display: block;
+  text-align: left;
+  margin-left: -5%;
+}
+.cat2 ul li a {
+  color: #262261;
+  text-decoration: none;
+  display: block;
+  margin-top: 7.5%;
+  text-align: left;
+}
+.cat2 ul li a:hover {
+  color: #008cff;
+}
+
+.cat3 {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: left;
+  height: 100%;
+  width: 25%;
+  margin-right: 5%;
+  padding-bottom: 3%;
+  background-color: white;
+  border: 2px solid #262261;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cat3 ul {
+  display: block;
+  text-align: left;
+  margin-top: 3%;
+  color: #262261;
+  list-style-type: none;
+}
+.cat3 ul li {
+  display: block;
+  text-align: left;
+  margin-left: -3%;
+}
+.cat3 ul li a {
+  color: #262261;
+  text-decoration: none;
+  display: block;
+  margin-top: 7.5%;
+  margin-left: -1%;
+}
+.cat3 ul li a:hover {
+  color: #008cff;
+}
+
+footer {
+  margin-top: auto;
+  width: 99.9%;
+  margin-left: -1%;
+  margin-bottom: -1%;
+  font-size: 12px;
+  text-align: right;
+  font-weight: bold;
+  padding: 1%;
+  color: white;
+  background-color: #262261;
+}
+
+.linkmail {
+  color: white;
+}
+
+.left {
+  width: 70%;
+  display: flex;
+  flex-flow: wrap;
+  height: 100%;
+  margin-bottom: 5%;
+}
+
+.right {
+  width: 25%;
+  display: flex;
+  flex-flow: wrap;
+  margin-bottom: 5%;
+  height: 25%;
+}
+
+.content-box, .content-box2 {
+  width: 90%;
+  display: flex;
+  border: 2px solid #262261;
+  flex-flow: wrap;
+  justify-content: left;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content-box ul, .content-box2 ul {
+  display: block;
+  text-align: left;
+  margin-top: 3%;
+  color: #262261;
+  list-style-type: none;
+}
+.content-box ul li, .content-box2 ul li {
+  display: block;
+  text-align: left;
+  margin-left: -3%;
+}
+.content-box ul li a, .content-box2 ul li a {
+  color: #262261;
+  text-decoration: none;
+  display: block;
+  margin-top: 7.5%;
+}
+.content-box ul li a:hover, .content-box2 ul li a:hover {
+  color: #008cff;
+}
+
+.header_zoek {
+  width: 90%;
+  background-color: #262261;
+  display: flex;
+  justify-content: center;
+  padding-right: 1.1%;
+}
+
+.header_vraag {
+  width: 90%;
+  background-color: #262261;
+  display: flex;
+  justify-content: center;
+  padding-right: 0.4%;
+}
+
+.vraag_text {
+  justify-content: left;
+  margin-left: 2%;
+}
+
+.zochtu {
+  margin-left: -3%;
+}
+
+.linkmail2 {
+  color: #262261;
+}
+
+.mail {
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: -3%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .logo {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .faq {
+    margin-top: 8%;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .vraag {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_vraag {
+    width: 90.5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_zoek {
+    width: 89.7%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .categories {
+    justify-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cat1 {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cat2 {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cat3 {
+    display: flex;
+    justify-content: left;
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .left, .right {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .header_zoek, .header_vraag {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  footer {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 768px) {
+  .logo {
+    width: 15%;
+    margin-left: -3%;
+  }
+}
+@media screen and (min-width: 701px) and (max-width: 768px) {
+  .header {
+    margin-left: 2%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1360px) {
+  .nav {
+    margin-left: 73%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
