@@ -24,17 +24,16 @@
 @media screen and (max-width: 768px) {
   .header {
     display: flex;
-    flex-direction: column;
-    margin-left: 1%;
+    margin-left: 0.5%;
 
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
   .nav {
     display: flex;
-    flex-direction: column;
-    margin-left: -5%;
+    margin-left: 35%;
+    margin-top: 2%;
     font-size: 8px;
   }
 
@@ -43,6 +42,7 @@
 @media screen and (max-width: 700px) {
   .logo {
     width: 25%;
+    margin-left: -1%;
   }
 }
 
@@ -61,13 +61,13 @@
 
 @media screen and (max-width: 768px) {
   .header_vraag {
-    width: 90.5%;
+    width: 90.3%;
   }
 }
 
 @media screen and (max-width: 768px){
   .header_zoek{
-    width: 89.7%;
+    width: 90%;
   }
 }
 
@@ -76,6 +76,8 @@
     justify-content: center;
     margin-top: 5%;
     flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -83,10 +85,16 @@
   .cat1  {
     display: flex;
     justify-content: left;
-    margin-top: 5%;
     width: 100%;
-    margin-left: 0%;
+    margin-top: 5%;
+    margin-left: 0;
+
+    ul{
+      margin-top: 3%;
+      font-size: smaller;
+    }
   }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -95,6 +103,11 @@
     justify-content: left;
     margin-top: 5%;
     width: 100%;
+    margin-left: 0;
+
+    ul{
+      font-size: smaller;
+    }
 
   }
 }
@@ -106,7 +119,11 @@
     margin-top: 5%;
     width: 100%;
     margin-bottom: 5%;
-    margin-left: 0%;
+    margin-left: 0;
+    
+    ul{
+      font-size: smaller;
+    }
   }
 }
 
@@ -134,6 +151,19 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .contactpic{
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  h3, p, .zochtu{
+    font-size: smaller;
+  }
+}
+
 //styling tablet
 
 @media screen and (min-width: 701px) and (max-width: 768px) {
@@ -143,18 +173,24 @@
   }
 }
 
+@media screen and (min-width: 701px) and (max-width: 768px) {
+  .nav{
+    margin-left: 65%;
+  }
+}
+
 @media screen and (min-width: 701px) and (max-width: 768px){
   .header {
     margin-left: 2%;
   }
 }
 
+
 @media screen and (min-width: 769px) and (max-width: 1360px){
   .nav{
     margin-left: 73%;
   }
 }
-
 
 
 
